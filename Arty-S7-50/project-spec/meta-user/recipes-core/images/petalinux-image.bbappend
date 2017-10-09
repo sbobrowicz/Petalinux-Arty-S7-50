@@ -1,0 +1,5 @@
+IMAGE_INSTALL_append = " peekpoke"
+IMAGE_INSTALL_append = " gpio-demo"
+IMAGE_INSTALL_append = " lrzsz"
+IMAGE_INSTALL_remove = " dropbear"
+IMAGE_INSTALL_remove = " packagegroup-core-ssh-dropbear"
